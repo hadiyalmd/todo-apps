@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  background: #fff;
+  padding: 1.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#todo-input {
+  padding: 0.5rem;
+  width: 70%;
+}
+
+#add-btn {
+  padding: 0.5rem;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
